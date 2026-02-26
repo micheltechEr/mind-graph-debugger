@@ -1,13 +1,13 @@
-import Header from "../Header"
-import NavigateSections from "../NavigateSections"
+import Header from "../../components/Header"
+import NavigateSections from "../../components/NavigateSections"
 import {
     ReactFlow,
     Background
 } from "@xyflow/react"
 
 import "@xyflow/react/dist/style.css"
-import { nodes, edges } from "../../mocks/liveDebuggerData"
-import DebuggerNode from "../nodes/DebuggerNode"
+import { nodes, edges } from "./mocks/liveDebuggerData"
+import DebuggerNode from "./components/DebuggerNode"
 
 const nodeTypes = {
     debugger: DebuggerNode

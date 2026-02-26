@@ -1,6 +1,6 @@
 
 import './App.css'
-import LandingViewLayout from './components/home/LandingViewLayout'
+import LandingViewLayout from '../features/live-debugger/LandingViewLayout'
 function App() {
 
   return (
