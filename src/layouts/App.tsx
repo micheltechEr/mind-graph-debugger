@@ -1,11 +1,11 @@
 
 import './App.css'
-import LandingViewLayout from '../features/live-debugger/LandingViewLayout'
+import AppRouter from '../app/router'
 function App() {
 
   return (
     <>
-    <LandingViewLayout />
+    <AppRouter />
     </>
   )
 }
